@@ -1,14 +1,18 @@
 # Compiler files
 cache/
 out/
+zkout/
 
-# Ignores development broadcast logs
+# Ignores development broadcast and anvil logs
 !/broadcast
 /broadcast/*
 /broadcast/**/dry-run/
+*.log
 
 # Docs
 docs/
 
 # Dotenv file
 .env
+
+
